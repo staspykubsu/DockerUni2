@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  shell:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    privileged: true
+
+# Запускать так: docker-compose run --rm shell
