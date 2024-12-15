@@ -8,4 +8,3 @@ services:
     privileged: true
 
 # Запускать так: docker-compose run --rm shell
-# docker-compose.yaml для запуска этого образа вы найдете по ссылке https://github.com/staspykubsu/DockerUni2
