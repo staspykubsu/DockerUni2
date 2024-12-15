@@ -10,5 +10,5 @@ RUN chmod +x your_program.sh
 
 CMD ["./your_program.sh"]
 
-# Запускать через docker run --privileged имя_образа
+# Запускать через docker run -it --privileged образ
 # docker-compose.yaml для запуска этого образа вы найдете по ссылке https://github.com/staspykubsu/DockerUni2
